@@ -14,6 +14,7 @@
 		22E0BAA320FDAACF00AC448B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E0BAA120FDAACF00AC448B /* LaunchScreen.storyboard */; };
 		22E0BAAE20FDAACF00AC448B /* PT_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0BAAD20FDAACF00AC448B /* PT_AppTests.swift */; };
 		22E0BAB920FDAACF00AC448B /* PT_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E0BAB820FDAACF00AC448B /* PT_AppUITests.swift */; };
+		22E0BAC720FDAC3600AC448B /* Tran_Nguyen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22E0BAC620FDAC3600AC448B /* Tran_Nguyen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		22E0BAB420FDAACF00AC448B /* PT_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PT_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E0BAB820FDAACF00AC448B /* PT_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PT_AppUITests.swift; sourceTree = "<group>"; };
 		22E0BABA20FDAACF00AC448B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E0BAC620FDAC3600AC448B /* Tran_Nguyen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tran_Nguyen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				22E0BA9820FDAACC00AC448B /* AppDelegate.swift */,
 				22E0BA9A20FDAACC00AC448B /* ViewController.swift */,
 				22E0BA9C20FDAACC00AC448B /* Main.storyboard */,
+				22E0BAC620FDAC3600AC448B /* Tran_Nguyen.jpg */,
 				22E0BA9F20FDAACF00AC448B /* Assets.xcassets */,
 				22E0BAA120FDAACF00AC448B /* LaunchScreen.storyboard */,
 				22E0BAA420FDAACF00AC448B /* Info.plist */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E0BAC720FDAC3600AC448B /* Tran_Nguyen.jpg in Resources */,
 				22E0BAA320FDAACF00AC448B /* LaunchScreen.storyboard in Resources */,
 				22E0BAA020FDAACF00AC448B /* Assets.xcassets in Resources */,
 				22E0BA9E20FDAACC00AC448B /* Main.storyboard in Resources */,
@@ -431,12 +435,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54TH6Q89ZH;
 				INFOPLIST_FILE = PT_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "W-K.PT-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "W-K";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,12 +453,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54TH6Q89ZH;
 				INFOPLIST_FILE = PT_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "W-K.PT-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "W-K";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
